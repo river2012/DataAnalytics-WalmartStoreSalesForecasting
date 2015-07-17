@@ -1,0 +1,11 @@
+@relation 18_99
+
+@attribute Store numeric
+@attribute Dept numeric
+@attribute Date date 'yyyy-MM-dd'
+@attribute Weekly_Sales numeric
+@attribute IsHoliday {FALSE,TRUE}
+
+@data
+18,99,2010-03-26,15.6,FALSE
+18,99,2010-09-03,9.52,FALSE

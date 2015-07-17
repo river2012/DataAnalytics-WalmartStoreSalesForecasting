@@ -1,0 +1,12 @@
+@relation 44_71
+
+@attribute Store numeric
+@attribute Dept numeric
+@attribute Date date 'yyyy-MM-dd'
+@attribute Weekly_Sales numeric
+@attribute IsHoliday {FALSE,TRUE}
+
+@data
+44,71,2011-03-04,-60,FALSE
+44,71,2012-06-08,-24.97,FALSE
+44,71,2012-08-03,-38.88,FALSE
